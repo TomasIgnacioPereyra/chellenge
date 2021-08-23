@@ -36,6 +36,15 @@ namespace CodingChallenge.Data.Tests
 
             Assert.AreEqual("<h1>Reporte de Formas</h1>1 Cuadrado | Area 25 | Perimetro 20 <br/>TOTAL:<br/>1 formas Perimetro 20 Area 25 ", resumen);
         }
+        [TestCase]
+        public void TestResumenListaConUnRectangulo()
+        {
+            var cuadrados = new List<FormaGeometricaBase> { new Rectangulo(5,3) };
+
+            var resumen = FormaGeometricaService.Imprimir(cuadrados, (int)IdiomasEnum.Castellano);
+
+            Assert.AreEqual("<h1>Reporte de Formas</h1>1 Rectángulo | Area 15 | Perimetro 16 <br/>TOTAL:<br/>1 formas Perimetro 16 Area 15 ", resumen);
+        }
 
         [TestCase]
         public void TestResumenListaConMasCuadrados()

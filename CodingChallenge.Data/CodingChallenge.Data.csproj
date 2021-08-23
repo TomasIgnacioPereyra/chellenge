@@ -52,7 +52,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Classes\FormaGeometrica.cs" />
     <Compile Include="Classes\Models\Enums\FormasEnum.cs" />
     <Compile Include="Classes\Models\Enums\IdiomasEnum.cs" />
     <Compile Include="Classes\Models\Formas\Circulo.cs" />
@@ -60,11 +59,11 @@
     <Compile Include="Classes\Models\Formas\FormaGeometricaBase.cs" />
     <Compile Include="Classes\Models\Formas\Rectangulo.cs" />
     <Compile Include="Classes\Models\Formas\TrianguloEquilatero.cs" />
-    <Compile Include="Classes\Service\Idiomas\CastellanoService.cs" />
-    <Compile Include="Classes\Service\Idiomas\InglesService.cs" />
-    <Compile Include="Classes\Service\Idiomas\ITraductorFormas.cs" />
-    <Compile Include="Classes\Service\FormasService\FormaGeometricaService.cs" />
-    <Compile Include="Classes\Service\Idiomas\PortuguesService.cs" />
+    <Compile Include="Classes\Services\Idiomas\CastellanoService.cs" />
+    <Compile Include="Classes\Services\Idiomas\InglesService.cs" />
+    <Compile Include="Classes\Services\Idiomas\ITraductorFormas.cs" />
+    <Compile Include="Classes\Services\FormasService\FormaGeometricaService.cs" />
+    <Compile Include="Classes\Services\Idiomas\PortuguesService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
