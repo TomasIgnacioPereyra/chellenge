@@ -1,6 +1,11 @@
 #internal files
 iolasp/services/xml/*.xml
 
+CodingChallenge.Data/obj
+CodingChallenge.Data/bin
+CodingChallenge.Data.Tests/bin
+CodingChallenge.Data.Tests/obj
+
 #OS junk files
 [Tt]humbs.db
 *.DS_Store
