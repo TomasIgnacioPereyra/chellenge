@@ -12,7 +12,7 @@
                 case (int)FormasEnum.Circulo:
                     return cantidad == 1 ? "Circle" : "Circles";
 
-                case (int)FormasEnum.TrianguloEquilatero:
+                case (int)FormasEnum.Triangulo:
                     return cantidad == 1 ? "Triangle" : "Triangles";
 
                 case (int)FormasEnum.Trapecio:

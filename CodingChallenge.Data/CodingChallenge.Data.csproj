@@ -58,6 +58,7 @@
     <Compile Include="Classes\Models\Formas\Cuadrado.cs" />
     <Compile Include="Classes\Models\Formas\FormaGeometricaBase.cs" />
     <Compile Include="Classes\Models\Formas\Rectangulo.cs" />
+    <Compile Include="Classes\Models\Formas\TrapecioRectangulo.cs" />
     <Compile Include="Classes\Models\Formas\TrianguloEquilatero.cs" />
     <Compile Include="Classes\Services\Idiomas\CastellanoService.cs" />
     <Compile Include="Classes\Services\Idiomas\InglesService.cs" />

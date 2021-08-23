@@ -16,7 +16,7 @@ namespace CodingChallenge.Data.Classes.Service.Idiomas
                 case (int)FormasEnum.Circulo:
                     return cantidad == 1 ? "Círculo" : "Círculos";
 
-                case (int)FormasEnum.TrianguloEquilatero:
+                case (int)FormasEnum.Triangulo:
                     return cantidad == 1 ? "Triángulo" : "Triángulos";
 
                 case (int)FormasEnum.Trapecio:

@@ -28,7 +28,7 @@ namespace CodingChallenge.Data.Classes.Models
                 case (int)FormasEnum.Cuadrado:
                     return new Cuadrado(lado);
 
-                case (int)FormasEnum.TrianguloEquilatero:
+                case (int)FormasEnum.Triangulo:
                     return new TrianguloEquilatero(lado);
 
                 case (int)FormasEnum.Rectangulo:

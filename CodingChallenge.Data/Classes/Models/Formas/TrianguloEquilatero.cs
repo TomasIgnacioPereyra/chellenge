@@ -9,7 +9,7 @@ namespace CodingChallenge.Data.Classes.Models.Formas
    public class TrianguloEquilatero : FormaGeometricaBase
     {
         public TrianguloEquilatero(decimal lado)
-            : base(lado, (int)FormasEnum.TrianguloEquilatero)
+            : base(lado, (int)FormasEnum.Triangulo)
         {
         }
 
