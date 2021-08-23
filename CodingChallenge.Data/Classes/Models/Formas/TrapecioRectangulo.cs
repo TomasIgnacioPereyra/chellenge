@@ -4,8 +4,8 @@ namespace CodingChallenge.Data.Classes.Models.Formas
 {
     public class TrapecioRectangulo : FormaGeometricaBase
     {
-        public TrapecioRectangulo(decimal ladoA, decimal baseSuperior, decimal baseInferior)
-            : base(ladoA, (int)FormasEnum.Trapecio)
+        public TrapecioRectangulo(decimal altura, decimal baseSuperior, decimal baseInferior)
+            : base(altura, (int)FormasEnum.Trapecio)
         {
             BaseSuperior = baseSuperior;
             BaseInferior = baseInferior;

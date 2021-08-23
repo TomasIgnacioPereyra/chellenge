@@ -26,10 +26,8 @@
 
         public string ObtenerLinea(int cantidad, decimal area, decimal perimetro,int tipo)
         {
-            if (cantidad > 0)
-            {
+            if (cantidad > 0)            
                 return $"{cantidad} {TraducirForma(cantidad, tipo)} | Area {area:#.##} | Perimeter {perimetro:#.##} <br/>";
-            }
 
             return string.Empty;
         }
