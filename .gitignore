@@ -5,6 +5,7 @@ CodingChallenge.Data/obj
 CodingChallenge.Data/bin
 CodingChallenge.Data.Tests/bin
 CodingChallenge.Data.Tests/obj
+MigrationBackup/
 
 #OS junk files
 [Tt]humbs.db
